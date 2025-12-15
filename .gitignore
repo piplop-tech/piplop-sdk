@@ -64,8 +64,8 @@ gen-external-apklibs
 *.log.*
 *.sig
 
-pkg/
-src/
+# pkg/ - Removed: was ignoring source files (ArchLinuxPackages template not needed)
+# src/ - Removed: was ignoring Rust source files!
 
 ### Git ###
 # Created by git for backups. To disable backups in Git:
